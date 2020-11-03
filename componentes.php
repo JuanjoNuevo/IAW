@@ -17,6 +17,8 @@ echo "<a href=https://www.pccomponentes.com/hp-officejet-pro-8210-impresora-colo
 echo " = 96,98€<br>";
 $impresora=96.98;
 $iva=1.21;
-$total=(($cpu+$monitor+$teclado+$raton+$impresora)*$iva);
-echo "<h2 style=background-color:green>EL TOTAL DEL COMBO ES: $total €</h2>";
+$total1=($cpu+$monitor+$teclado+$raton+$impresora);
+$total2=(($cpu+$monitor+$teclado+$raton+$impresora)*$iva);
+echo "<h2 style=background-color:green>EL TOTAL DEL COMBO ES: $total1 €</h2>";
+echo "<h2 style=background-color:green>EL TOTAL DEL COMBO (IVA DEL 21% INCLUIDO, PRECIO FINAL) ES: $total2 €</h2>";
 ?>
